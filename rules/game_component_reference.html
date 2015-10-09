@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>DRAGON&#39;S MONEY LAUNDERING by TWISTING BLADE GAMES</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-	<link rel="stylesheet" href="stylesheets/DML.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/github-dark.css">
+	<link rel="stylesheet" href="../stylesheets/DML.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-	<script src="javascripts/dml_js.js"></script>
+    <script src="../javascripts/respond.js"></script>
+	<script src="../javascripts/dml_js.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -32,11 +32,11 @@
 		
 		<div class="nav_bar_holder">
 		<ul>
-			<li><div class="nav_button"><a href="index.html"><b>Main</b></a></div>
-			<li><div class="nav_button"><a href="news.html">News</a></div>
-			<li><div class="nav_button"><a href="rules_main.html">Rules</a></div>
-			<li><div class="nav_button"><a href="vid_tuts.html">Video Tutorials</a></div>
-			<li><div class="nav_button"><a href="contact.html">Contact Us</a></div>
+			<li><div class="nav_button"><a href="../index.html"><b>Main</b></a></div>
+			<li><div class="nav_button"><a href="../news.html">News</a></div>
+			<li><div class="nav_button"><a href="../rules_main.html">Rules</a></div>
+			<li><div class="nav_button"><a href="../vid_tuts.html">Video Tutorials</a></div>
+			<li><div class="nav_button"><a href="../contact.html">Contact Us</a></div>
 		</ul>
 		</div>
 	</div>
@@ -218,34 +218,76 @@
 				</ul>
 			</div>
 			
-			<div class="letter_to_billy">
-				<p>
-				Dear Billy,
-				</p>
-				<p>
-				Look how you've grown, m'boy. Seems like yesterday when you we're still selling cattle at the Outpost market square. Yet, it has become time for you to travel to Four Corners, the crown jewel of the Realm, where the borders of great kingdoms meet. In there battles are not fought by steel but by gold and cunning. At the ever-buzzing Grand Market Place of Four Corners precious commodities of the Realm tirelessly change hands. In there eager men and noble women acquire and forfeit great fortunes. Watch them squander their gold, while making sure you won't share their fate.
-				</p>
-				<p>
-				There are many ways to bring glory and wealth to your kingdom. Gathering resources and honest trading are but a single way to achieve your goals.
-				</p>
-				<p>
-				Good luck!
-				</p>
-			</div>
-			
 			
 		
-			<h3>The Rules</h3>
+			<h3>The Rules - Game Component Reference</h3>
 			<p>
-			Welcome to Four Corners, your highness, the grand stage of all future acquisitions to be. All possible scenarios that take place in Four Corners happen within the boundaries of these rules. By heeding to these rules anyone with an access to a deck of playing cards and two six-sided dice can start playing Dragon's Money Laundering immediately.
-			</p>
-			<p>
-			In the game of Dragon's Money Laundering a deck of regular playing cards is used to represent various events, commodities and characters in the city of Four Corners. In addition to the deck of playing cards, the two six-sided dice introduce an another level of probabilities. They model the uncertain nature of doing business in the Realm, thus guiding Players to generally play it safe but to take the high risk when the odds are in their favor.
+			Dragon's Money Laundering is designed to work on minimal resources. Dice rolls, cards and sections of the playing table, called Zones, all convey multiple meanings that interact with the rules sequences and each other. On the first read-through, players are encouraged to learn about these Game Components in the given order: Zones, Cards and Dice Rolls.
 			</p>
 
-			<h3>Structure</h3>
 			<p>
-			The Rules are divided into logical sections that build on each other. Additionally, the Rules section is supplied with a general Glossary for a quick reference source and a list of 
+			Zones indicate the parts of the gaming area that different rules apply to. They provide a well-defined sandbox to various player actions.
+			</p>
+
+			<p>
+			To squeeze out enough complexity out of limited amount of cards DML utilizes polymorphism. Basically this means that cards can mean different things in different Zones. Card Reference explains how DML encodes information to regular cards and how they interface with the game rules.
+			</p>
+
+			<p>
+			Rolling the dice is a core feature of the game and it is used to settle all in-game transactions of goods. However, specific dice roll results can initiate special game sequences that are explained in the Dice Rolls section.
+			</p>
+
+			
+			<h3>Zones</h3>
+			<p>
+			The gaming table and the players' hands form the playing area of Dragon's Money Laundering. In order to give meaning to regular playing cards and confirm player actions' legality, the players need to establish the Zones in which the cards reside.
+			</p>
+
+			<p>
+			Refer to the Quick Reference printout sheet for the correct positions of the Zones.
+			</p>
+
+			<p>
+			The playing area in Dragon's Money Laundering is divided into 10 Zones:
+
+			Active Global Event
+			Character Ultimate Power Stack
+			Dragon's Hoard
+			Dragon's Nest
+			Emblem
+			Exile
+			Global Event Deck
+			Marketplace
+			Merchant King
+			Treasury
+			All interactions with the listed Zones are explained in Gameplay section.
+			</p>
+
+			<h3>Card Reference</h3>
+			<p>
+			This rules section explains all the different Card Classes and their possible subclasses. Additionally, there is a Card Index that takes these Card Classes and assigns them to each respective cards of the deck. Card Index also lists all the values of card specific attributes and as such is the primary source of reference after a Player has firmly grasped the concept and content of Card Classes.
+			</p>
+			
+			<h3>Dice Roll</h3>
+			
+			<p>
+			Dice rolling is used in three distinct sequences to settle the conditional nature of the outcome of specific actions. The first time is during the Setup Stage when deciding the starting controller of the Initiative Badge and it only happens once a game. Every other roll during the game is either to determine whether an Acquisition Attempt is successful or not, or whether the Thief is put to Exile or back to the Global Event Deck.
+			</p>
+
+			<p>
+			Dragon's Money Laundering rewards Players for rolling doubles, save rolling double ones. There are three categories of doubles and they all have different effects that trigger if they're rolled. The categories are:
+
+			Dabo!
+			Woot! Woot!
+			Wyvern Eyes
+			Acquisition Attempt and Thief rolls can initiate game sequences that start immediately after resolving the triggering action.
+			</p>
+
+			<p>
+			Rolls during the Setup Stage of the game only grant re-rolls and instant successess.
+			</p>
+
+						
 			<a href='javascript:;' onclick="toggleByClass('required_equipment');">Required Equipment</a>.
 					<div class="required_equipment">
 						<div class="hidden_div">
@@ -266,25 +308,9 @@
 					</div>
 
 
-			The main rules sections are <a href="rules/game_component_reference.html">Game Component Reference</a>, <a href="rules/gameplay.html">Gameplay</a> and <a href="rules/game_modes.html">Game Modes</a>, and -- despite the interlinked wiki nature of the rulebook -- they are recommended to be read in the given order on the first time.
+			 <a href="../rules/req_equip.html">Required Equipment</a> 
 			</p>
-			<p>
-			Game Component Reference introduces the Players to how Dragon's Money Laundering handles the cards of a regular playing cards deck in its own unique way.
-			</p>
-			<p>
-			Gameplay utilizes the keywords introduced in Game Component Reference and outlines a repeatable flowchart-like process of gameplay sequences. By following these sequences to the point, anyone can start playing Dragon's Money Laundering immediately.
-			</p>
-			<p>
-			After the players have a firm grasp of the Game Component Reference and Gameplay sections they can expand on it by reading about Game Modes. Game Modes modify the Core Rules to fit into different situations such as playing with newbies and also 2-player games.
-			</p>
-			<p>
-			Glossary defines every new concept and keyword that Dragon's Money Laundering Master Rules Wiki introduces.
-			</p>
-			<p>
-			Dragon's Money Laundering requires minimal amount of equipment for maximal bang. <a href="rules/req_equip.html">Required Equipment</a> lists the minimum requirements to play the game with four players and the core rules. Any changes to these requirements fall into the scope of Game Modes.
-			</p>
-			<p>
-			</p>
+			
 		</div>
 	</div>	
 	
