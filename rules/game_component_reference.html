@@ -251,21 +251,107 @@
 			The playing area in Dragon's Money Laundering is divided into 10 Zones:
 
 			Active Global Event
+				At the start of each Round a card is drawn from the Global Event Deck. If the card has the Card Class Global Event it is placed into Active Global Event Zone, otherwise it is placed into Dragon's Hoard. The card in the Active Global Event Zone indicates the Global Event that takes place during the whole of the Round.
+
+				Location
+
+				It is a single face-up card or no card at all next to the Global Event Deck and Dragon's Nest, diagonally opposite to Dragon's Hoard.
+			
 			Character Ultimate Power Stack
+				Character Ultimate Power Stack Zone exists only during Character Power Phases of the Rounds. Character Ultimate Power Stack records the order in which the Character Ultimate Powers or Emblems have been played. The Character Ultimate Power Stack then resolves in reverse order; it is basically a LIFO(Last-in-First-out) data structure.
+
+				Location
+
+				It can be located at any convenient spot on the table.
+
+				N.B.
+
+				Only cards with the classes Character or Emblem can be played on the Character Ultimate Power Stack.
+			
 			Dragon's Hoard
+				Due to the limited amount of cards available, they need to be recycled throughout the game. Dragon's Hoard Zone is basically a discard pile with a single distinctive trait: the cards in the Dragon's Hoard are still in the game as opposed to the Exile. Thus those cards can be brought back to the game as Resource and Character cards available to Players.
+
+				Location
+
+				It is a face-up pile of cards next to the Global Event Deck and Dragon's Nest, diagonally opposite to the Active Global Event.
+
+				N.B.
+
+				The topmost card of the Dragon's Hoard is open information, but Players need to keep track of cards that go in there. They have the right to see everything that goes into the Dragon's Hoard and in what order, but they can't double check this information once the triggering discard procedure is complete.
+			
 			Dragon's Nest
+				Dragon Egg cards are not directly available to the Players' actions. However, different game events may lead to Dragon Egg cards leaving Dragon's Nest.
+
+				Location
+
+				It is a face-down pile of cards next to Active Global Event and Dragon's Hoard diagonally opposite to Global Event Deck.
+
+				N.B.
+
+				Dragon Egg cards are always returned to Dragon's Nest after Dragon Siege Sequence.
+				
 			Emblem
+				Emblem Zones are personal to each Player. They indicate which Emblem Static Bonuses and Emblem Power Bonuses are available to which Player. Emblems played into Emblem Zones are vulnerable to Acquisition Attempts by other Players.
+
+				Location
+
+				Emblem Zone is a set of face-up cards with Emblem Card Class played in front of the owning Player next to the Merchant King Zone.
+
 			Exile
+				Exile is the true discard pile. Cards that enter Exile can't be returned to the game by any means. Resource class cards can't enter Exile.
+
+				Location
+
+				Exile is a pile of face-down cards clearly separate from the gaming area.
+
+				Exile should be located in a safe place where no unsuspecting oaf can have access to the cards and accidentally reveal their nature.
+
+				N.B.
+
+				Any non-implicit information about cards in Exile are off-limits to all Players. For example, Players know which Character cards have been moved there after their Character Ultimate Powers have resolved, but for example in a 3-player game the Players may not verify the missing Merchant Kings identity, when the card is put face down in to Exile.
+				
 			Global Event Deck
+				Global Event Deck regulates how Global Events, Characters and Resources enter the game. After the Game Setup Stage all the remaining cards form the Global Event Deck.
+
+				Location
+
+				Global Event Deck is a face-down pile of cards next to Active Global Event and Dragon's Hoard Zones diagonally opposite to Dragon's Nest.
+				
 			Marketplace
+				Marketplace is where Resources drawn from the Global Event Deck are placed. Each Resource Type is arranged to its own Stock and the four Stocks are arranged to form a row that is equivalent to the clockwise Wheel of Profit. This makes it easier for Players to see the necessary Primary Buying Resource just by looking at the Marketplace arrangement.
+
+				Location
+
+				Marketplace resides in the middle of the semi-circular playing area.
+				
 			Merchant King
+				Merchant King Zone is personal to each Player.
+
+				Players should keep one's own Merchant King card a secret.
+
+				Location
+
+				Merchant King Zone is a single face-down card next to the Emblem Zone in front of the Player.
+				
 			Treasury
+				Treasury is equivalent to the Player's hand cards.
+
+				Location
+
+				Treasury should be kept secret, there are no constraints about the location.
+
+				N.B.
+
+				All non-implicit information about a Player's Treasury is secret information. Players can keep track of what Resources their opponents acquire from the Marketplace, or use deductive reasoning about what cards they might have in their Treasuries.
+
+				Players may also disclose all acquired information about any Player's Treasury to all opponents.
+
 			All interactions with the listed Zones are explained in Gameplay section.
 			</p>
 
 			<h3>Card Reference</h3>
 			<p>
-			This rules section explains all the different Card Classes and their possible subclasses. Additionally, there is a Card Index that takes these Card Classes and assigns them to each respective cards of the deck. Card Index also lists all the values of card specific attributes and as such is the primary source of reference after a Player has firmly grasped the concept and content of Card Classes.
+			This rules section explains all the different Card Classes and their possible subclasses. Additionally, there is a <a href="../rules/card_index.html">Card Index</a> that takes these Card Classes and assigns them to each respective cards of the deck. <a href="../rules/card_index.html">Card Index</a> also lists all the values of card specific attributes and as such is the primary source of reference after a Player has firmly grasped the concept and content of Card Classes.
 			
 			-----------
 			Card Classes
@@ -312,6 +398,57 @@
 				A Dragon Egg is not a Resource. The Dragon Eggs have no Resource Type and thus won't receive the Secret Desired Resource Victory Point bonus at the end of the game.
 				
 			Emblem
+				Emblems are public displays of economical power. They grant their owners significant advantage on business opportunities.
+
+				An Emblem card can be played from the owning Player's Treasury into the Emblem Zone during the Character Ultimate Power Phase. It is declared to be an Emblem before placing it on to the Character Ultimate Power Stack.
+
+				The Emblem can't be withdrawn from the Emblem Zone by the owning Player.
+
+				Character Ultimate Powers can't be activated by cards played as an Emblem.
+
+				Attributes
+
+				Face Value as a played Emblem
+
+				Any Player may declare an Acquisition Attempt on any one Emblem card played in an Emblem Zone.
+
+				All Emblems have Face Value of 10 and their Resource Type is the printed suite on the card. The Acquisition Attempt is resolved as explained in the Gameplay section.
+
+				Buying Bonus
+
+				Each Emblem has an Buying Bonus attribute. The Buying Bonus attribute is subtracted from the Target Value of any Acquisition Attempt of the corresponding Resource Type as the Emblem itself. These bonuses stack with each other.
+
+				Vantage Bonus
+
+				Each Resource Type has a shared Vantage Bonus. Anytime Players play any one of the three possible Emblems of a suite, they'll receive the same stacking bonus.
+
+				The possible Vantage Bonuses are:
+
+				spades
+					Vantage Bonus
+					 Dragon Shield: The controlling Player may ignore Dragon Siege effects, if the number of Dragon Eggs in the Player's Treasury is equal to or lower than the number of Dragon Shield Emblems the Player controls.
+					
+				hearts
+					Vantage Bonus
+					The controlling Player draws an extra card after successful Acquisition Attempts on Black Markets.
+					
+				diamonds
+					Vantage Bonus
+					The controlling Player receives an extra Market Action.
+					
+				clubs
+				
+				Tens and Jacks
+					Vantage Bonus
+					Tens and Jacks provide an Buying Bonus of 1 on their corresponding Resource Type.
+
+				Queens
+					Vantage Bonus
+					Queens provide an Buying Bonus of 2 on their corresponding Resource Type.
+
+				N.B.
+
+				The Emblem card has to be played into the Emblem Zone before the owning Player can utilize its Buying Bonus or Vantage Bonus attributes.
 			
 			Foreign Merchant
 				-------
@@ -319,11 +456,191 @@
 				Foreign Merchant card triggers immediately when it's drawn from the Global Event Deck at any given situation. Everything else is put on hold while the Dealer executes Foreign Merchant Sequence as instructed in the Gameplay section. The triggering event continues normally where it left off after the Foreign Merchant Sequence has resolved.
 				
 			Global Event
+				Global Event
+				Global Event cards model the shifting and unpredictable economical and sociopolitical climate in Four Corners. Global Event cards modify game Rounds in unpredictable ways and give advantage to different Players. Taking the risks at the right time, when others can't react to them is a key ability of any Player.
+
+				Each Global Event Type has two distinct effect attributes: a Player Effect and a Market Effect. Player Effects favor Player's with less cards in their Treasury and gives them better chance at getting back in to the game, whereas Market Effects can manipulate Face Values of individual cards or make Acquisition Attempts safer or more difficult to execute.
+
+				Player Effects are structured as follows:
+
+				The Global Event card states what effect applies on each Player
+				Any Player that has less cards than the current Global Event Face Value ignores the Player Effect
+				Market Effects are structured as follows:
+
+				The Global Event card states what effect is applied on the Resource cards in play.
+				Each Global Event Type has a unique effect, but the range is always inclusive to the Global Event Face Value. The Global Event affects Resource cards with Face Value less or more than -- depending on the Global Event Type --, or equal to the Global Event Face Value.
+				Player Effect resolves selectively, Market Effect is unconditional to all Players.
+
+				Player Effects resolve at the start of the Round and their effects last until the end of the Round, regardless if Players' Treasury sizes change.
+
+				Attributes
+
+				Global Event Type
+
+				There are four basic Global Event Types and a one catch-all special Global Event Type; there is one for each suites number cards from 2 to 9 and a one separate for tens, picture cards and jokers.
+
+				The Global Event Type is indicated by the printed suite of the Global Event card.
+
+				The different basic Global Event Types are:
+
+				Decadence
+					Player Effect
+
+					Players can't play Character Ultimate Powers.
+
+					Market Effect
+
+					Players can only bid Primary or Secondary Buying Resources that have Face Values of more than or equal to the Global Event Face Value in Acquisition and Seize Attempts.
+				
+				Tax Relief
+					Player Effect
+
+					Players don't have a Black Market Phase during this round.
+
+					However, a Market Phase can always be substituted for one.
+
+					Market Effect
+
+					All Resources in the Market Place with Face Values of more than or equal to the Active Global Event Global Event Face Value receive a -2 modifier to their Face Value until the end of Round.
+					
+				Contraband Crackdown
+					Player Effect
+
+					Players can't make any Seize Attempts.
+
+					Market Effect
+
+					Players can only bid Primary or Secondary Buying Resources that have Face Values less than or equal to the Global Event Face Value in Acquisition and Seize Attempts.
+				
+				Marauders
+					Player Effect
+
+					Each Player discards a card at random and puts it in to the Dragon's Hoard.
+
+					Market Effect
+
+					All Resources in the Market Place with Face Values of more than or equal to the Active Global Event card Global Event Face Value receive a +2 modifier to their Face Value until end of Round.
+				
+				The special Global Event Type is:
+
+				Carnival of Coin
+					Attributes
+
+					Player Effect
+
+					Each Player has an extra Market Action at the start of their Market Phase.
+
+					Market Effect
+					
+				The respective Global Event Types of different Global Event cards are listed in the Card Index. Resolving Global Event cards is explained in the Gameplay section.
+
+				Global Event Face Value
+
+				Global Event cards with a basic Global Event Type have an inherent Face Value that is the printed value on the card. This value indicates how powerful the Global Event is and who and what Resource cards the Global Effect card affects.
+			
 			Guild House
+				A Guild House is the trading hub of its inherent Resource Type.
+
+				Guild Houses are truly game-winning cards. In tight games the cumulated Resource Bonus can become something of a tie-breaker or an additional point advantage in and on itself.
+
+				Attributes
+
+				Resource Bonus
+
+				The Guild House provides a Resource Bonus on cards matching its own Resource Type. Thus, possible Resource Bonus types are: Slaves, Spice, Iron and Wood.
+
+				Resource Bonus attribute provides 2 bonus Victory Points for each other card corresponding to the Guild House's Resource Type in the owning Player's Treasury at the End Stage of the game.
+
+				Points provided by Resource Bonus are not doubled by the Secret Desired Resource attribute of the controlling Player's Merchant King.
+
+				The Guild House itself doesn't receive the Resource Bonus.
+			
 			Merchant King
+				Merchant King cards represent the Players themselves in the Realm and in the city of Four Corners.
+
+				Each Player may control only one Merchant King card at maximum.
+
+				Though they don't directly affect the gameplay through rules, their primary function is to generate an incentive for the Player, an unambiguous goal, and give a fighting chance to victory even before the Player can form more elaborate tactics and achieve more difficult Victory Conditions. Provided that nothing unexpected happens during the game, collecting one's Secret Desired Resource is an almost surefire tactic at winning; denying another Player of their own is the next step to becoming a truly good Player.
+
+				Attributes
+
+				Secret Desired Resource
+
+				Merchant King's Secret Desired Resource is the printed suite on the card. Thus, possible Secret Desired Resources are: Slaves, Spice, Iron and Wood.
+
+				Each Merchant King card indicates the Secret Desired Resource of the controlling Player. The Secret Desired Resource is an integral part of Victory Point Victory Condition at the End Stage of the game. The Player will receive double the Victory Points from each Resource card that has a matching Resource Type with the Player's Secret Desired Resource.
+				
 			Resource
+				Resource cards represent all the available commodities in the Market Place of Four Corners. In a game of capitalism the winner is usually the one with the most valuable commodities.
+
+				Attributes
+
+				Face Value
+
+				The Resource card's Face Value is the printed number on the card. Thus, possible Face Values range from 2 to 10.
+
+				The Face Value is used to indicate the value of the Resource card and to buy other Resources as explained in Gameplay section of this rules wiki.
+
+				Victory Points
+
+				The amount of Victory Points a card yields is indicated by its Face Value. However, the gained Victory Points may receive modifiers from the Players' Merchant King Secret Desired Resource attributes.
 			</p>
 			
+			
+			<h3>Victory Condition</h3>
+			<p>
+			There are many ways to win a game of Dragon's Money Laundering. The game has been designed so that at no point can one be absolutely certain about one's victory. Even the Players that have lost everything at some point of the game have a slight chance at a comeback. Sometimes ruining someone else's game is as good a tactic as the other. Victory can and must be taken by any means necessary. There are no second places.
+			</p>
+				-----
+				Monopoly
+				<p>
+				If at any point in the game a Player's Treasury has all the Resource cards from 2 to 9 of the same Resource Type, that Player can immediately declare a Monopoly. The Resource Type can be any of the four basic Resource Types.
+
+				When a Monopoly is declared the game ends immediately regardless of the game state. For example, the Player can't lose those cards, because of a Character Ultimate Power waiting to resolve.
+
+				Victory Points are not counted and the Player who achieved Monopoly will be declared winner.
+
+				N.B. A Monopoly doesn't require a Guild House; tens are excluded.
+				</p>
+				------
+				
+				Ultimate Victory
+				<p>
+				If at any point in the game a Player's Treasury has all four Dragon Egg cards in it, that Player can immediately declare an Ultimate Victory.
+
+				When an Ultimate Victory is declared the game ends immediately regardless of the game state. For example, the Player can't lose those cards, because of a Character Ultimate Power waiting to resolve.
+
+				Victory Points are not counted and the Player who achieved the Ultimate Victory will be declared winner.
+				</p>
+				<p>
+				-------------
+				Victory Point
+				When the Global Event Deck is completely depleted and the Dealer must draw a new Active Global Event but is unable, the game ends.
+
+				At this point the Players reveal their Merchant King cards and thus their Secret Desired Resource.
+
+				Players remove all non-Resource and non-Dragon Egg cards from their Treasuries and Emblem Zones. They don't yield any Victory Points.
+
+				Players tally their Victory Points from Resource and Dragon Egg cards in their Treasury and Emblem Zones, apply their Merchant King's Secret Desired Resource modifiers and Guild House Resource Bonus Victory Points.
+
+				The Player with the highest score will be declared winner.
+
+				Victory Point Counting System
+
+				Counting Victory Points incorrectly is time consuming and cumbersome to each Player involved. A systematical approach is recommended. The following sequence is just an example, but the bottom line is that modifiers and bonuses should be applied on totals not individual cards.
+
+				<ol>
+					<li>Separate all different Resource Types in their own stacks.
+					<li>Add up each stack's total Face Values individually. 
+					<ul>
+						<li>If the Resource Type matches the Secret Desired Resource, double the stack total at this point.
+					</ul>
+					<li>Apply Resource Bonus on each applicable stack.
+					<li>Sum up each stack's total.
+				</ol>
+				</p>
+				
+			</p>
 			<h3>Dice Roll</h3>
 			
 			<p>
@@ -332,11 +649,42 @@
 
 			<p>
 			Dragon's Money Laundering rewards Players for rolling doubles, save rolling double ones. There are three categories of doubles and they all have different effects that trigger if they're rolled. The categories are:
+			<ul>
+				<li>Dabo!
+					<p>
+					
+					Dabo! is triggered when a Player rolls double twos, threes, fours or fives. The triggering Player may immediately re-roll the dice in hope of a higher score. The Player may re-roll even if the initial roll would have failed or for that matter succeeded.
 
-			Dabo!
-			Woot! Woot!
-			Wyvern Eyes
+					Dabo! can trigger during Initiative Badge Roll-Off or during the actual game during Acquisition Attempts. It may be used to achieve higher results on Initiative Badge Roll-Off, if the Player is not happy with the triggering roll. However, the Player has to keep the following non-Dabo! result even, if it's lower than the former roll. All subsequent Dabo! results naturally yield a new optional re-roll.
+
+					Dabo! can be used in many ways. Re-rolling successful Acquisition Attempts can be used to try force the probabilities on Wyvern Eyes or Woot! Woot! results.
+
+					It is customary to shout 'Dabo!' out loud, when Dabo! is triggered.
+					</p>
+				<li>Woot! Woot!
+					<p>
+					
+					Woot! Woot! is triggered when a Player rolls double sixes. Despite being a double, Woot! Woot! can't be re-rolled.
+
+					Woot! Woot! is an automatic success regardless of the Target Value of the Acquisition Attempt. Additionally, any Woot! Woot! result will immediately trigger Foreign Merchant Sequence after the triggering action.
+
+					During the Initiative Badge Roll-Off any Player rolling Woot! Woot! will immediately be awarded the Initiative Badge and the remaining Players are denied the chance to roll for the Initiative Badge anymore.
+
+					It is customary to shout 'Woot! Woot!' and wave your hands above your head when Woot! Woot! is triggered.
+					</p>
+				<li>Wyvern Eyes
+					<p>
+					Wyvern Eyes is triggered when a Player rolls double ones. Despite being a double, Wyvern Eyes can't be re-rolled.
+
+					Wyvern Eyes is an automatic failure regardless of the Target Value of the Acquisition Attempt. Additionally, any Wyvern Eyes result will immediately trigger the Dragon Siege Sequence.
+
+					During the Initiative Badge Roll-Off, if each Player rolls Wyvern Eyes, they are thereby denied all access to this game until they learn how to roll dice properly.
+
+					Depending on the Player's situation, it is customary to groan in pain or snigger gleefully when Wyvern Eyes is triggered.
+					</p>
+			</ul>
 			Acquisition Attempt and Thief rolls can initiate game sequences that start immediately after resolving the triggering action.
+			
 			</p>
 
 			<p>
