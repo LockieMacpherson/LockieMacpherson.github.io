@@ -36,7 +36,7 @@ text-align: left;
 
 
 .main_p_text {
-	max-width: 600px;
+	max-width: 900px;
 	padding: 0px;
 	border: 0px;
 	 margin-left:auto;
@@ -80,6 +80,14 @@ color: #gray;
 text-transform: uppercase;
 color: gray;
 font-size: 1.8em;
+}
+
+h4 {
+color: #gray;
+text-transform: capitalize;
+color: gray;
+font-size: 1.2em;
+font-weight: bold;
 }
 
 .container {
@@ -131,7 +139,7 @@ ul {
 
 /* rules menu index expander. uses dml_js.js */ 
 /*  SET TO HIDDEN ON DOM in dml_js.js   */
-.glossary, .zones, .event_deck, .active_event, .dragons_nest, .dragons_hoard, .marketplace, .court, .treasury, .exile, .turn, .round, .init_badge, .player, .active_player, .passive_player, .dealer, .cpp, .cpq, .merch_king, .vic_points, .resource, .resource_type, .character_card, .emblem, .static_bonus, .acq_attempt, .stock, .guild_house, .court_card, .primary_buying_resource, .wheel_of_profit, .secondary_buying_resource, .seize_attempt, .cup, .global_event, .required_equipment, .rogue_jester{
+.glossary, .zones, .event_deck, .active_event, .dragons_nest, .dragons_hoard, .marketplace, .court, .treasury, .exile, .turn, .round, .init_badge, .player, .active_player, .passive_player, .dealer, .cpp, .cpq, .merch_king, .vic_points, .resource, .resource_type, .character_card, .emblem, .static_bonus, .acq_attempt, .stock, .guild_house, .court_card, .primary_buying_resource, .wheel_of_profit, .secondary_buying_resource, .seize_attempt, .cup, .global_event, .required_equipment, .rogue_jester, .supreme_conf, .tithe_embez, .grand_inquisitor,.pampered_heiress, .arch_duchess, .dragon_empress, .harlot_queen, .slave_king, .spice_king , .iron_king, .wood_king, .foreign_merchant, .thief {
 	 width: 90%;	 
 	 height: auto;
 	 margin: 0px;
