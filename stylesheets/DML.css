@@ -1,0 +1,221 @@
+.main_logo {
+
+}
+
+.main_top_div {
+background-color: #2e2947;
+width: 100%;
+padding: 0px;
+border: 0px;
+margin: 0px;
+display: block;
+text-align: center;
+}
+
+.nav_bar_holder {
+
+width: 100%;
+padding: 0px;
+border: 0px;
+margin: 0px;
+display: block;
+text-align: center;
+}
+
+
+.middle_container_div {
+background-color: #ffffff;
+padding-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 100px;
+border: 0px;
+margin: 0px;
+display: block;
+text-align: left;
+}
+
+body {	
+background-color: #ffffff;
+padding: 0px;
+border: 0px;
+margin: 0px;
+display: block;
+text-align: left;
+}
+
+
+
+.main_p_text {
+	max-width: 900px;
+	padding: 0px;
+	border: 0px;
+	 margin-left:auto;
+	margin-right:auto;
+	display: block;
+	text-align: left;
+	color: gray;
+	font-size: 1.2em;
+}
+
+/*
+.main_p_text p {
+	color: gray;
+	font-size: 1.2em;
+}
+*/
+
+.letter_to_billy {
+	text-align: left;
+	color: gray;
+	font-size: 1em;
+	text-indent 40px;
+	font-style: italic;
+}
+
+h5 {
+color: white;
+text-transform: uppercase;
+position: absolute;
+top: 40%;
+width: 100%;
+z-index: 1;
+}
+
+h1 {
+color: #fcf038;
+text-transform: uppercase;
+font-weight: bold;
+}
+h3 {
+color: #gray;
+text-transform: uppercase;
+color: gray;
+font-size: 1.8em;
+}
+
+h4 {
+color: #gray;
+text-transform: capitalize;
+color: gray;
+font-size: 1.2em;
+font-weight: bold;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+.video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.nav_bar_holder a:link{
+	
+	color: #f19759; 
+	background-color:transparent; 
+	text-decoration:none;
+	
+}
+
+.nav_bar_holder a:visited {
+	
+	color: #f19759; 
+	background-color:transparent; 
+	text-decoration:none;
+	
+}
+
+.nav_bar_holder a:hover {
+	
+	color: #fcf038; 
+	background-color:transparent; 
+	text-decoration:underline;
+	
+}
+
+.nav_bar_holder a:active {
+	
+	color: #474747; 
+	background-color:transparent; 
+	text-decoration:underline;
+	
+}
+
+a:link    {color: #f19759; background-color:transparent; text-decoration:none}
+a:visited {color: #f19759; background-color:transparent; text-decoration:none}
+a:hover   {color: #474747; background-color:transparent; text-decoration:underline}
+a:active  {color: #474747; background-color:transparent; text-decoration:underline}
+
+.nav_bar_holder li{
+	text-align: left;
+	display: inline-block;
+	padding: 10px;
+	border: 0px;
+	margin: 10px;	
+	text-indent: 0px;
+}
+
+/* make sure lists have no markers unless specified by class */
+ul {
+    list-style-type: none;
+	list-style: none;
+	list-image: none;
+}
+
+.rules_index_menu ul li {
+	text-align: left;
+}
+
+.rules_index_menu div{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;	
+	text-indent: 0px;
+	text-align: left;
+}
+
+/* rules menu index expander. uses dml_js.js */ 
+/*  SET TO HIDDEN ON DOM in dml_js.js   */
+.glossary, .zones, .event_deck, .active_event, .dragons_nest, .dragons_hoard, .marketplace, .court, .treasury, .exile, .turn, .round, .init_badge, .player, .active_player, .passive_player, .dealer, .cpp, .cpq, .merch_king, .vic_points, .resource, .resource_type, .character_card, .emblem, .static_bonus, .acq_attempt, .stock, .guild_house, .court_card, .primary_buying_resource, .wheel_of_profit, .secondary_buying_resource, .seize_attempt, .cup, .global_event, .required_equipment, .rogue_jester, .supreme_conf, .tithe_embez, .grand_inquisitor,.pampered_heiress, .arch_duchess, .dragon_empress, .harlot_queen, .slave_king, .spice_king , .iron_king, .wood_king, .foreign_merchant, .thief, .video_tutorials, .dice_roll, .victory_condition, .global_event, .qs_round, .qs_turn, .qrg_download, .important {
+	 width: 90%;	 
+	 height: auto;
+	 margin: 0px;
+	 margin-top: 1em;
+	 margin-bottom: 1em;
+	 max-width: 600px;
+	padding: 0px;
+	border: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	display: none;
+	text-align: left;
+	color: gray;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+.hidden_div /* holds any div hidden until clicked, that is not part of the menu systems */	
+	{
+	 width: 100%;	 
+	 height: auto;
+	 margin: 0px;
+	 margin-top: 1em;
+	 margin-bottom: 1em;
+	 max-width: 600px;
+	padding: 0px;
+	border: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	text-align: left;
+	color: gray;
+	}
+	
+	
