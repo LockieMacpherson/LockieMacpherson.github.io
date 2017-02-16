@@ -1,0 +1,1 @@
+<?php header('Location: steam://url/CommunityFilePage/849384438'); ?>
